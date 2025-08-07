@@ -1,0 +1,15 @@
+[package]
+name = "NFTEvolutionContract"
+version = "1.0.0"
+authors = []
+
+[addresses]
+tasmiya_addr="0xd42f5bc06353ac78ccebb345c10bf623b564ad4a9ff8c7fef58447e425f63763"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
